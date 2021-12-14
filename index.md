@@ -1,8 +1,8 @@
-
 ---
 layout: home
 title: "Home"
 ---
+
 # Samuel Tootle
 This theme allows an academic person to showcase their research interests, publications, research group, curriculum vitae, any courses that they may be teaching, or anything else they may want to put out into the world.
 
