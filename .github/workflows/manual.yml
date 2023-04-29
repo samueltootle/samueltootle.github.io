@@ -11,6 +11,10 @@ on:
 jobs:
   status:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: '~/'
     steps:
       - run: pwd
       - run: ls -al
