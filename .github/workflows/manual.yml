@@ -37,6 +37,7 @@ jobs:
         git config user.email "<>"
     - name: update branch
       run: |
+        git fetch origin
         git checkout -b content
         git pull origin content
     - name: Doxygen Action      
