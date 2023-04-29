@@ -9,16 +9,40 @@ on:
   push:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  status:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: './'
+    steps:
+      - uses: actions/checkout@master
+      - run: pwd
+      - run: ls -al
   # This workflow contains a single job called "greet"
   build-doxygen:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    
-
+    defaults:
+      run:
+        shell: bash
+        working-directory: 'doxygen/'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+    - name: checkout
+      uses: actions/checkout@master
     - name: Doxygen Action      
       uses: mattnotmitt/doxygen-action@1.9.5
-      with: 
-        working-directory: './'
+      with:
+        working-directory: 'doxygen/'
+    - name: setup_git
+      run: |
+        git config user.name "Actions bot"
+        git config user.email "<>"
+    - name: commit_build
+      run: |
+        cd html
+        git add .
+        git commit -a -m 'doxygen page update'
+        git push origin main
