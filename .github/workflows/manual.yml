@@ -26,7 +26,6 @@ jobs:
     defaults:
       run:
         shell: bash
-        working-directory: 'doxygen/'
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -35,14 +34,15 @@ jobs:
     - name: Doxygen Action      
       uses: mattnotmitt/doxygen-action@1.9.5
       with:
-        working-directory: 'doxygen/'
+        working-directory: './'
     - name: setup_git
       run: |
         git config user.name "Actions bot"
         git config user.email "<>"
     - name: commit_build
       run: |
+        git checkout -b content
         cd html
         git add .
         git commit -a -m 'doxygen page update'
-        git push origin main
+        git push -u origin content
