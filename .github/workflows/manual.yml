@@ -36,11 +36,17 @@ jobs:
         git pull origin fuka
         cd ..
         git commit .gitmodules -m 'update to latest FUKA submodule'
-    # rebuild doxygen content
-    - name: Doxygen Action      
+    # rebuild fukaref doxygen content
+    - name: build fukaref doxy
       uses: mattnotmitt/doxygen-action@1.9.5
       with:
         working-directory: './'
+        doxyfile-path: 'fuka.dox'
+    - name: build website doxy
+      uses: mattnotmitt/doxygen-action@1.9.5
+      with:
+        working-directory: './'
+        doxyfile-path: 'Doxyfile'
     - name: update branch
       run: |
         cd docs
