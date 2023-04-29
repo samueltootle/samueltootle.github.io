@@ -42,7 +42,7 @@ jobs:
     - name: commit_build
       run: |
         git checkout -b content
-        cd doc
+        cd docs
         git add .
         git commit -a -m 'doxygen page update'
         git push -u origin content
