@@ -18,5 +18,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Doxygen Action
-      uses: mattnotmitt/doxygen-action@1.9.5
+    - uses: mattnotmitt/doxygen-action@1.9.5
+    - name: Doxygen Action      
+      working-directory: './'
