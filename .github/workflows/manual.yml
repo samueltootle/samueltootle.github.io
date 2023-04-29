@@ -30,18 +30,21 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: checkout
-      uses: actions/checkout@content
-    - name: Doxygen Action      
-      uses: mattnotmitt/doxygen-action@1.9.5
-      with:
-        working-directory: './'
+      uses: actions/checkout@master
     - name: setup_git
       run: |
         git config user.name "Actions bot"
         git config user.email "<>"
-    - name: commit_build
+    - name: update branch
       run: |
         git checkout -b content
+        git pull origin content
+    - name: Doxygen Action      
+      uses: mattnotmitt/doxygen-action@1.9.5
+      with:
+        working-directory: './'
+    - name: update branch
+      run: |
         cd docs
         git add .
         git commit -a -m 'doxygen page update'
