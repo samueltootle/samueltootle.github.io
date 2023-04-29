@@ -16,7 +16,7 @@ jobs:
         shell: bash
         working-directory: './'
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@main
       - run: pwd
       - run: ls -al
   # This workflow contains a single job called "greet"
@@ -30,7 +30,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@content
     - name: Doxygen Action      
       uses: mattnotmitt/doxygen-action@1.9.5
       with:
