@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: pwd
-      - run: ls
+      - run: ls -al
   # This workflow contains a single job called "greet"
   build-doxygen:
     # The type of runner that the job will run on
