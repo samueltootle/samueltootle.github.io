@@ -1,0 +1,5 @@
+- name: Doxygen Action
+    uses: mattnotmitt/doxygen-action@1.9.5
+- inputs:
+    doxyfile-path: './fuka.dox'
+      
