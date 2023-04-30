@@ -33,7 +33,8 @@ jobs:
     # merge changes from main
     - name: merge_main
       run: |
-        git merge main --ff --no-commit
+        git fetch --unshallow
+        git merge --no-ff main -m 'Automerge - main'
     # update fuka submodule
     - name: update_fuka
       continue-on-error: true # avoid failure if nothing to commit
