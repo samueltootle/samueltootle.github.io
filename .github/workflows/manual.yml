@@ -29,7 +29,6 @@ jobs:
       run: |
         git config user.name "Actions bot"
         git config user.email "<>"
-        # update fuka submodule
     # merge changes from main
     - name: merge_main
       run: |
@@ -42,7 +41,7 @@ jobs:
         cd fuka
         git pull origin fuka
         cd ..
-        git commit .gitmodules -m 'update to latest FUKA submodule'
+        git commit fuka -m 'update to latest FUKA submodule'
     # rebuild fukaref doxygen content
     - name: build fukaref doxy
       uses: mattnotmitt/doxygen-action@1.9.5
