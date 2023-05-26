@@ -3,7 +3,8 @@
   <!-- Navigation index tabs for HTML output -->
   <navindex>
     <tab type="mainpage" visible="yes" title="About me"/>
-    <tab type="user" url='fuka/index.html' visible="yes" title="Fuka"/>
+    <tab type="user" url='fuka/index.html' visible="yes" title="FUKA"/>
+    <tab type="user" url='Academic_CV.pdf' visible="yes" title="CV"/>
     <!-- <tab type="pages" visible="yes" title="" intro=""/>
     <tab type="modules" visible="yes" title="" intro=""/>
     <tab type="namespaces" visible="yes" title="">
