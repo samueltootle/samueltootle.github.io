@@ -53,7 +53,7 @@ jobs:
         rm -rf docs*
     # rebuild fukaref doxygen content
     - name: build fukahome doxy
-      uses: mattnotmitt/doxygen-action@1.9.5
+      uses: mattnotmitt/doxygen-action@1.9.1
       with:
         working-directory: './'
         doxyfile-path: 'fuka_website.dox'
