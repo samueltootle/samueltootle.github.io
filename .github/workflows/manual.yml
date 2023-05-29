@@ -46,6 +46,7 @@ jobs:
         git pull origin fuka
         cd ..
         git commit fuka -m 'update to latest FUKA submodule'
+        cd -
     - name: clear_docs dir
       run: |
         mkdir -p docs
