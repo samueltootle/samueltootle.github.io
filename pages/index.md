@@ -2,7 +2,7 @@
 <!-- \image me.jpg -->
 
 <div class="contents">
-<img style="float: right;" src="me.jpg"  width="256" height="300">
+<img style="float: right;" src="me.jpg"  width="256" height="384">
 
 
 I am a computational astrophysicist with an expertise in the study of compact object physics through the study of numerical relativity simulations
