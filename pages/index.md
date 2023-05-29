@@ -2,9 +2,11 @@
 <!-- \image me.jpg -->
 
 <div class="contents">
+<div class="image">
 <img style="float: right;" src="me.jpg"  width="256" height="320">
+</div>
 
-<p>
+<div class="text">
 I am a computational astrophysicist with an expertise in the study of compact object physics through the study of numerical relativity simulations
 <!-- <div class="contents"> -->
 
@@ -20,4 +22,5 @@ become a more active member in the community.
 
 
 I received my Master and PhD from [Goethe Universitaet](http://www.uni-frankfurt.de) in Frankfurt, Germany under the supervision of [Prof. Dr. Luciano Rezzolla](https://relastro.uni-frankfurt.de/rezzolla/).  A summary of my publications to date can be found via my [ORCID](https://orcid.org/0000-0001-9781-0496).
-</p>
+</div>
+</div>
