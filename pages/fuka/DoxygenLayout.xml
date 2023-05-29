@@ -3,7 +3,7 @@
   <!-- Navigation index tabs for HTML output -->
   <navindex>
     <tab type="mainpage" visible="yes" title=""/>
-    <tab type="pages" visible="no" title="" intro=""/>
+    <tab type="pages" visible="yes" title="" intro=""/>
     <tab type="modules" visible="yes" title="" intro=""/>
     <tab type="namespaces" visible="yes" title="">
       <tab type="namespacelist" visible="yes" title="" intro=""/>
@@ -13,15 +13,6 @@
       <tab type="interfacelist" visible="yes" title="" intro=""/>
       <tab type="interfaceindex" visible="$ALPHABETICAL_INDEX" title=""/> 
       <tab type="interfacehierarchy" visible="yes" title="" intro=""/>
-    </tab>
-    <tab type="user" url="@ref install" title="Installation"/>
-    <tab type="usergroup" title="Tutorials">
-      <tab type="user" url="@ref tutorials" title="Introduction"/>
-      <tab type="user" url="@ref bhxcts" title="Black Hole"/>
-      <tab type="user" url="@ref bbhxcts" title="Binary Black Hole"/>
-      <tab type="user" url="@ref nsxcts" title="Neutron Star"/>
-      <tab type="user" url="@ref bnsxcts" title="Binary Neutron Star"/>
-      <tab type="user" url="@ref bhnsxcts" title="Black Hole-Neutron Star"/>
     </tab>
     <tab type="user" url='api/index.html' visible="yes" title="API Reference"/>
     <tab type="examples" visible="yes" title="" intro=""/>  
