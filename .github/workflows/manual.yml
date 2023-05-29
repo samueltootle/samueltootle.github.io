@@ -52,6 +52,11 @@ jobs:
       with:
         working-directory: './'
         doxyfile-path: 'fuka.dox'
+    - name: build fukahome doxy
+      uses: mattnotmitt/doxygen-action@1.9.5
+      with:
+        working-directory: './'
+        doxyfile-path: 'fuka_website.dox'
     # rebuild personal website doxygen
     - name: build website doxy
       uses: mattnotmitt/doxygen-action@1.9.5
