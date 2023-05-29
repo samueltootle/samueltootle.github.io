@@ -3,7 +3,7 @@
 
 <div class="contents">
 <div class="image">
-<img style="float: right;" src="me.jpg"  width="256" height="320">
+<img src="me.jpg"  width="256" height="320">
 </div>
 
 <div class="text">
