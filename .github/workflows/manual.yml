@@ -23,8 +23,11 @@ jobs:
       uses: actions/checkout@master
       with:
         submodules: true
-        ref: 'content'
+        ref: 'main'
     # make sure git is setup
+    - name: branch_content
+      run: |
+        git checkout -b content
     - name: setup_git
       run: |
         git config --global user.name "Actions bot"
@@ -66,7 +69,6 @@ jobs:
     # Commit new content to 'content' branch
     - name: update branch
       run: |
-        cd docs
         git add .
         git commit -a -m 'doxygen page update'
-        git push -u origin content
+        git push -u -f origin content
