@@ -46,9 +46,10 @@ jobs:
         git pull origin fuka
         cd ..
         git commit fuka -m 'update to latest FUKA submodule'
-    - name: clear_old_site
+    - name: clear_docs dir
       run: |
-        rm -rf docs/*
+        mkdir -p docs
+        rm -rf docs*
     # rebuild fukaref doxygen content
     - name: build fukaref doxy
       uses: mattnotmitt/doxygen-action@1.9.5
