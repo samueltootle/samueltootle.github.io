@@ -22,6 +22,7 @@
       <tab type="user" url="@ref nsxcts" title="Neutron Star"/>
       <tab type="user" url="@ref bnsxcts" title="Binary Neutron Star"/>
       <tab type="user" url="@ref bhnsxcts" title="Black Hole-Neutron Star"/>
+      <tab type="user" url="@ref eos" title="Equation of State"/>
       <tab type="user" url="@ref pythontools" title="PythonTools"/>
     </tab>
     <tab type="user" url="@ref citations" title="Citing Guidelines"/>
