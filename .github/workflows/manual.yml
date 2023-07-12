@@ -25,24 +25,33 @@ jobs:
         submodules: true
         ref: 'main'
     # make sure git is setup
-    - name: branch_content
-      run: |
-        git checkout -b content
     - name: setup_git
       run: |
         git config --global user.name "Actions bot"
-        git config --global user.email "<>"
+        git config --global user.email "bot@noreply.github.com"
         git config --global pull.rebase false
+    - name: Git Sumbodule Update
+      run: |
+        git pull --recurse-submodules
+        git submodule update --remote --recursive
+    - name: update master branch
+      run: |
+        git add .
+        git commit -a -m 'doxygen page update'
+        git push -u -f origin content
+    - name: branch_content
+      run: |
+        git checkout -b content
     # merge changes from main
     #- name: merge_main
     #  run: |
     #    git fetch --unshallow
     #    git merge --no-ff origin/main -m 'Automerge - main'
     # update fuka submodule
-    - name: update_fuka
-      continue-on-error: true # avoid failure if nothing to commit
-      run: |
-        git submodule update --remote --merge
+    # - name: update_fuka
+    #   continue-on-error: true # avoid failure if nothing to commit
+    #   run: |
+    #     git submodule update --remote --merge
     - name: clear_docs dir
       run: |
         mkdir -p docs
