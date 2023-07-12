@@ -42,11 +42,7 @@ jobs:
     - name: update_fuka
       continue-on-error: true # avoid failure if nothing to commit
       run: |
-        cd fuka
-        git pull origin fuka
-        cd ..
-        git commit fuka -m 'update to latest FUKA submodule'
-        cd -
+        git submodule update --remote --merge
     - name: clear_docs dir
       run: |
         mkdir -p docs
