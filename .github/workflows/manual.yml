@@ -42,16 +42,6 @@ jobs:
     - name: branch_content
       run: |
         git checkout -b content
-    # merge changes from main
-    #- name: merge_main
-    #  run: |
-    #    git fetch --unshallow
-    #    git merge --no-ff origin/main -m 'Automerge - main'
-    # update fuka submodule
-    # - name: update_fuka
-    #   continue-on-error: true # avoid failure if nothing to commit
-    #   run: |
-    #     git submodule update --remote --merge
     - name: clear_docs dir
       run: |
         mkdir -p docs
