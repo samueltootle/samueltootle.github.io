@@ -41,7 +41,6 @@ jobs:
         git push origin main
     - name: branch_content
       run: |
-        git branch -d content
         git checkout -b content
     # merge changes from main
     #- name: merge_main
