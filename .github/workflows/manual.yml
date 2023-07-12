@@ -35,12 +35,13 @@ jobs:
         git pull --recurse-submodules
         git submodule update --remote --recursive
     - name: update master branch
+      # continue-on-error: true # avoid failure if nothing to commit
       run: |
-        git add .
-        git commit -a -m 'doxygen page update'
-        git push -u -f origin content
+        git commit -a -m 'submodule update'
+        git push origin master
     - name: branch_content
       run: |
+        git branch -d content
         git checkout -b content
     # merge changes from main
     #- name: merge_main
