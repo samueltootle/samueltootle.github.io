@@ -26,6 +26,7 @@
       <tab type="user" url="@ref pythontools" title="PythonTools"/>
     </tab>
     <tab type="user" url="@ref citations" title="Citing Guidelines"/>
+    <tab type="user" url="@ref fukascience" title="FUKA Enabled Science"/>
     <tab type="user" url='api/index.html' visible="yes" title="API Reference"/>
     <tab type="examples" visible="yes" title="" intro=""/>  
   </navindex>
