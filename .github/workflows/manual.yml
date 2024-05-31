@@ -35,7 +35,7 @@ jobs:
         git pull --recurse-submodules
         git submodule update --remote --recursive
     - name: update main branch
-      # continue-on-error: true # avoid failure if nothing to commit
+      continue-on-error: true # avoid failure if nothing to commit
       run: |
         git commit -a -m 'submodule update'
         git push origin main
