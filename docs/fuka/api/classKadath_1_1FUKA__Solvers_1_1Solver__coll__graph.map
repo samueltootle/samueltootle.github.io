@@ -1,0 +1,15 @@
+<map id="Kadath::FUKA_Solvers::Solver&lt; config_t, space_t &gt;" name="Kadath::FUKA_Solvers::Solver&lt; config_t, space_t &gt;">
+<area shape="rect" id="node1" title="Solver base for FUKA solvers." alt="" coords="1229,129,1415,170"/>
+<area shape="rect" id="node2" href="$classKadath_1_1Base__tensor.html" title=" " alt="" coords="987,77,1130,104"/>
+<area shape="rect" id="node3" href="$structKadath_1_1MemoryMappable.html" title=" " alt="" coords="5,165,176,192"/>
+<area shape="rect" id="node4" href="$classKadath_1_1Space.html" title=" " alt="" coords="767,77,874,104"/>
+<area shape="rect" id="node5" href="$classKadath_1_1Domain.html" title=" " alt="" coords="513,133,626,160"/>
+<area shape="rect" id="node6" href="$classKadath_1_1Dim__array.html" title=" " alt="" coords="241,144,368,171"/>
+<area shape="rect" id="node7" href="$classKadath_1_1Array.html" title=" " alt="" coords="225,195,384,221"/>
+<area shape="rect" id="node8" href="$classKadath_1_1Val__domain.html" title=" " alt="" coords="752,256,889,283"/>
+<area shape="rect" id="node9" href="$classKadath_1_1Base__spectral.html" title=" " alt="" coords="493,344,645,371"/>
+<area shape="rect" id="node10" href="$classKadath_1_1Array.html" title=" " alt="" coords="237,367,372,393"/>
+<area shape="rect" id="node11" href="$classKadath_1_1Space__spheric__adapted.html" title=" " alt="" coords="981,129,1136,170"/>
+<area shape="rect" id="node12" href="$classKadath_1_1FUKA__Config_1_1kadath__config__boost.html" title=" " alt="" coords="985,316,1133,372"/>
+<area shape="rect" id="node13" href="$classKadath_1_1FUKA__Config_1_1configurator__base.html" title=" " alt="" coords="747,446,895,487"/>
+</map>
