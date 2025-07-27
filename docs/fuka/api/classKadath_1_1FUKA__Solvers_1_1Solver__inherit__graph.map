@@ -1,0 +1,14 @@
+<map id="Kadath::FUKA_Solvers::Solver&lt; config_t, space_t &gt;" name="Kadath::FUKA_Solvers::Solver&lt; config_t, space_t &gt;">
+<area shape="rect" id="node1" title="Solver base for FUKA solvers." alt="" coords="5,213,191,254"/>
+<area shape="rect" id="node2" href="$classKadath_1_1FUKA__Solvers_1_1XCTS__Solver.html" title=" " alt="" coords="244,5,424,61"/>
+<area shape="rect" id="node4" href="$classKadath_1_1FUKA__Solvers_1_1XCTS__Solver.html" title=" " alt="" coords="244,85,424,141"/>
+<area shape="rect" id="node6" href="$classKadath_1_1FUKA__Solvers_1_1XCTS__Solver.html" title=" " alt="" coords="239,165,429,221"/>
+<area shape="rect" id="node8" href="$classKadath_1_1FUKA__Solvers_1_1XCTS__Solver.html" title=" " alt="" coords="249,245,419,301"/>
+<area shape="rect" id="node10" href="$classKadath_1_1FUKA__Solvers_1_1XCTS__Solver.html" title=" " alt="" coords="253,325,415,381"/>
+<area shape="rect" id="node12" href="$classKadath_1_1FUKA__Solvers_1_1XCTS__Solver.html" title="Solver base for FUKA solvers." alt="" coords="256,405,412,461"/>
+<area shape="rect" id="node3" href="$classKadath_1_1FUKA__Solvers_1_1bns__xcts__solver.html" title=" " alt="" coords="486,5,642,61"/>
+<area shape="rect" id="node5" href="$classKadath_1_1FUKA__Solvers_1_1bbh__xcts__solver.html" title=" " alt="" coords="481,85,647,141"/>
+<area shape="rect" id="node7" href="$classKadath_1_1FUKA__Solvers_1_1ns__3d__xcts__solver.html" title=" " alt="" coords="477,165,651,221"/>
+<area shape="rect" id="node9" href="$classKadath_1_1FUKA__Solvers_1_1bhns__xcts__solver.html" title=" " alt="" coords="483,245,645,301"/>
+<area shape="rect" id="node11" href="$classKadath_1_1FUKA__Solvers_1_1bh__3d__xcts__solver.html" title=" " alt="" coords="486,325,642,381"/>
+</map>
