@@ -1,0 +1,6 @@
+<map id="Kadath::FUKA_Solvers::Parameter_sequence_base" name="Kadath::FUKA_Solvers::Parameter_sequence_base">
+<area shape="rect" id="node1" title="Base class for storing sequences for different parameters." alt="" coords="5,41,192,83"/>
+<area shape="rect" id="node2" href="$structKadath_1_1FUKA__Solvers_1_1Parameter__sequence.html" title="Parameter sequence for a given set of Config indices." alt="" coords="240,5,428,47"/>
+<area shape="rect" id="node4" href="$structKadath_1_1FUKA__Solvers_1_1Resolution__sequence.html" title="Resolution sequence." alt="" coords="256,70,412,126"/>
+<area shape="rect" id="node3" href="$classKadath_1_1FUKA__Solvers_1_1ns__sequence.html" title=" " alt="" coords="476,5,695,47"/>
+</map>

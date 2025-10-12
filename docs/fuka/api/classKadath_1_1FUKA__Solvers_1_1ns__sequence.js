@@ -1,0 +1,25 @@
+var classKadath_1_1FUKA__Solvers_1_1ns__sequence =
+[
+    [ "ns_sequence", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#ac15efaaa19dafff290c1c41704abc580", null ],
+    [ "ns_sequence", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a588e5431321a6a24717019c67a279716", null ],
+    [ "ns_sequence", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a9b5321cd097c5a46624cb9aee8094619", null ],
+    [ "ns_sequence", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a8c43464faadc7be554e8856726e5aef4", null ],
+    [ "get_sequence_idx", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a23b61bc8adec7a533372332f258c3780", null ],
+    [ "is_mass_set", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a4b573065af6b4829ffd144ee24ccafc6", null ],
+    [ "is_spin_set", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#ae58d8b62e69e9878020c356fb74a634c", null ],
+    [ "mass_idx", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#aa31926d93ba6972bf40a1684a59a826a", null ],
+    [ "mass_str", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#ad7667554a808d049cabfb8c4f1538ceb", null ],
+    [ "mass_val", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#af8dd77ba282018ff98dd7425a4da81cb", null ],
+    [ "set_mass_idx", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a47ed153211817e912d9daeb9f6aada11", null ],
+    [ "set_mass_val", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a0c121a9e599f9aa8c3fbd3cd44cd793e", null ],
+    [ "set_spin_idx", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a1989470045ee1b87e4cf1d433715d35a", null ],
+    [ "set_spin_val", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a4e6c38f8710c80157aa2e80b8114f1e4", null ],
+    [ "spin_idx", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a11818d8b8e36892f3e6f778ca13faf77", null ],
+    [ "spin_str", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a84f62bccbc6c17eb76006028263f87f8", null ],
+    [ "spin_val", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#aed8fb153ffbd864c5980e5de824f7f6c", null ],
+    [ "operator<<", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a7988b0980161a37fbe761785a51b05de", null ],
+    [ "mass_fixing_idx", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a028007c42c50e04edb47bbb81a5e5fff", null ],
+    [ "mass_fixing_val", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a51097549ed7488ddcabe9fbbff6b28e0", null ],
+    [ "spin_fixing_idx", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#a435137724e3b18baf5a0816191f9e4f6", null ],
+    [ "spin_fixing_val", "classKadath_1_1FUKA__Solvers_1_1ns__sequence.html#aba5f5ba4555e26c9e1525acda423a30e", null ]
+];

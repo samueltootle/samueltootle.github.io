@@ -1,0 +1,957 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+  \newunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \newunicodechar{²}{${}^{2}$}% Superscript two
+  \newunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+$\varphi$
+\pagebreak
+
+$ z=0 $
+\pagebreak
+
+$(X_c, Z_c)$
+\pagebreak
+
+$ \rho = (R - r_i(\theta))/2. x + (R + r_i(\theta))/2. $
+\pagebreak
+
+$ \theta = \theta^\star $
+\pagebreak
+
+$ R $
+\pagebreak
+
+$ r_i $
+\pagebreak
+
+$ r = (r_o(\theta) - R)/2. x + (r_o(\theta) + R)/2. $
+\pagebreak
+
+$ r_o $
+\pagebreak
+
+$r_i$
+\pagebreak
+
+$ R$
+\pagebreak
+
+$ {\rm d} r / {\rm d} x$
+\pagebreak
+
+$ {\rm d} r / {\rm d} \theta$
+\pagebreak
+
+$ \partial_r $
+\pagebreak
+
+$ \partial_\theta $
+\pagebreak
+
+$(X_c, Y_c, Z_c)$
+\pagebreak
+
+$ r = (R - r_i(\theta, \varphi))/2. x + (R + r_i(\theta, \varphi))/2. $
+\pagebreak
+
+$ \varphi = \varphi^\star $
+\pagebreak
+
+$ r = (r_o(\theta, \varphi) - R)/2. x + (r_o(\theta, \varphi) + R)/2. $
+\pagebreak
+
+$ {\rm d} r / {\rm d} \varphi$
+\pagebreak
+
+$r_o$
+\pagebreak
+
+$ d $
+\pagebreak
+
+$ x_1 $
+\pagebreak
+
+$ x_2 $
+\pagebreak
+
+$ R $
+\pagebreak
+
+$ \partial_\varphi $
+\pagebreak
+
+$ r_1 $
+\pagebreak
+
+$ r_2 $
+\pagebreak
+
+$ r_1/2 $
+\pagebreak
+
+$ r_1/2 < r < r_1 $
+\pagebreak
+
+$ r_1 < r < 2 r_1 $
+\pagebreak
+
+$ r_2/2 $
+\pagebreak
+
+$ r_2/2 < r < r_2 $
+\pagebreak
+
+$ r_2 < r < 2 r_2 $
+\pagebreak
+
+$ BH1_bounds(0) $
+\pagebreak
+
+$ BH1_bounds(0) < r < BH1_bounds(1) $
+\pagebreak
+
+$ BH1_bounds(1) < r < BH1_bounds(2) $
+\pagebreak
+
+$ BH1_bounds(2) < r < BH1_bounds(3+n_shells1) $
+\pagebreak
+
+$ BH2_bounds(0) $
+\pagebreak
+
+$ BH2_bounds(0) < r < BH2_bounds(1) $
+\pagebreak
+
+$ BH2_bounds(1) < r < BH2_bounds(2) $
+\pagebreak
+
+$ BH2_bounds(2) < r < BH2_bounds(3+n_shells2) $
+\pagebreak
+
+$ outer_bounds(len-1) $
+\pagebreak
+
+$\theta$
+\pagebreak
+
+$ nshells1 $
+\pagebreak
+
+$ nshells2 $
+\pagebreak
+
+$ <= nz $
+\pagebreak
+
+$ \chi $
+\pagebreak
+
+$ \eta $
+\pagebreak
+
+$ -1 \leq \eta^\star \leq 1 $
+\pagebreak
+
+$ 0 \leq \chi^\star \leq 1 $
+\pagebreak
+
+$ 0 \leq \varphi^\star < 2\pi $
+\pagebreak
+
+$ \eta = \displaystyle\frac{\eta_{\rm max}-\eta_{\rm min}}{2} \eta^\star + \displaystyle\frac{\eta_{\rm max}+\eta_{\rm min}}{2} $
+\pagebreak
+
+$ \chi = (\chi_{\rm min}- \pi) \chi^\star + \pi $
+\pagebreak
+
+$ x = a \displaystyle\frac{\sinh \eta}{\cosh\eta - \cos\chi} $
+\pagebreak
+
+$ y = a \displaystyle\frac{\cosh \eta \cos\varphi}{\cosh\eta - \cos\chi} $
+\pagebreak
+
+$ z = a \displaystyle\frac{\cosh \eta \sin\varphi}{\cosh\eta - \cos\chi} $
+\pagebreak
+
+$ \eta = \displaystyle\frac{f(\chi)-\eta_{\rm lim}}{2} \eta^\star + \displaystyle\frac{f(\chi)+\eta_{\rm lim}}{2} $
+\pagebreak
+
+$ \chi = \chi_{\rm max} \chi^\star $
+\pagebreak
+
+$ f (\chi) $
+\pagebreak
+
+$ f $
+\pagebreak
+
+$ \displaystyle\frac{\sinh ^2 f(\chi) + \sin ^2\chi} {(\cosh f(\chi) - \cos \chi)^2} = \displaystyle\frac{R^2}{a^2} $
+\pagebreak
+
+$ \chi = (g(\eta)-\pi) \chi^\star + \pi $
+\pagebreak
+
+$ g (\eta) $
+\pagebreak
+
+$ g $
+\pagebreak
+
+$ \displaystyle\frac{\sinh ^2 \eta + \sin ^2 g(\eta)} {(\cosh \eta - \cos g(\eta))^2} = \displaystyle\frac{R^2}{a^2} $
+\pagebreak
+
+$ a $
+\pagebreak
+
+$ x=-1 $
+\pagebreak
+
+$ x=+1 $
+\pagebreak
+
+$ \varphi $
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta^\star}{\partial x} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta}{\partial x} = \displaystyle\frac{2 a (a^2 + r^2 - 2x^2)}{(a^2+r^2)^2 - 4a^2x^2} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta^\star}{\partial \eta } = \displaystyle\frac{2}{\eta_{\rm max} - \eta_{\rm min}} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta^\star}{\partial y} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta}{\partial y} = \displaystyle\frac{-4axy}{(a^2+r^2)^2 - 4a^2x^2} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta^\star}{\partial z} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta}{\partial z} = \displaystyle\frac{-4axz}{(a^2+r^2)^2 - 4a^2x^2} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi^\star}{\partial x} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi}{\partial x} = \displaystyle\frac{-4ax\sqrt{y^2+z^2}}{(r^2-a^2)^2 + 4 a^2 (y^2+z^2)} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi^\star}{\partial \chi } = \displaystyle\frac{1}{\chi_{\rm min} - \pi} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi^\star}{\partial y} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi}{\partial y} = \cos\varphi \displaystyle\frac{2ax(r^2-a^2-a^2(y^2+z^2)}{(r^2-a^2)^2 + 4 a^2 (y^2+z^2)} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi}{\partial z} = \sin\varphi \displaystyle\frac{2ax(r^2-a^2-a^2(y^2+z^2)}{(r^2-a^2)^2 + 4 a^2 (y^2+z^2)} $
+\pagebreak
+
+$ \sin\chi \displaystyle\frac{\partial \varphi^\star}{\partial y} $
+\pagebreak
+
+$ \sin\chi \displaystyle\frac{\partial \varphi^\star}{\partial y} = - \displaystyle\frac{(\cosh\eta - \cos\chi) \sin\varphi}{a} $
+\pagebreak
+
+$ \sin\chi \displaystyle\frac{\partial \varphi^\star}{\partial z} $
+\pagebreak
+
+$ \sin\chi \displaystyle\frac{\partial \varphi^\star}{\partial z} = \displaystyle\frac{(\cosh\eta - \cos\chi) \cos\varphi}{a} $
+\pagebreak
+
+$ \eta_{\rm min} $
+\pagebreak
+
+$ x = -1 $
+\pagebreak
+
+$ \eta_{\rm max} $
+\pagebreak
+
+$ x = +1 $
+\pagebreak
+
+$ \chi_{\rm min} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta^\star}{\partial X} $
+\pagebreak
+
+$ cos(m\varphi^\star)$
+\pagebreak
+
+$ T_(2j) (\chi^\star)$
+\pagebreak
+
+$ m $
+\pagebreak
+
+$ T_(2j+1) (\chi^\star)$
+\pagebreak
+
+$ T_{i} (\eta^\star) $
+\pagebreak
+
+$ P_(2j) (\chi^\star)$
+\pagebreak
+
+$ P_(2j+1) (\chi^\star)$
+\pagebreak
+
+$ P_{i} (\eta^\star) $
+\pagebreak
+
+$ sin(m\varphi^\star)$
+\pagebreak
+
+$ \eta^\star = \displaystyle\frac{2}{\eta_{\rm max}-\eta_{\rm min}} ({\rm atanh}(\displaystyle\frac{2ax}{a^2+r^2}) - \displaystyle\frac{\eta_{\rm max}+\eta_{\rm min}}{2}) $
+\pagebreak
+
+$ \chi^\star = \displaystyle\frac{({\rm atan} (\displaystyle\frac{2a\sqrt{y^2+z^2}}{r^2-a^2} - \pi)} {\chi_{\rm min} - \pi} $
+\pagebreak
+
+$ \varphi^\star = {\rm atan} \displaystyle\frac{z}{y} $
+\pagebreak
+
+$ (x, y, z) $
+\pagebreak
+
+$ (x, \theta^\star, \varphi^\star) $
+\pagebreak
+
+$ 1/r^2$
+\pagebreak
+
+$ f (\chi=0) = \ln (\frac{R}{a}+1) - \ln (\frac{R}{a}-1) $
+\pagebreak
+
+$ \chi^\star $
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta^\star}{\partial x } = (\displaystyle\frac{\partial \eta}{\partial x} - \displaystyle\frac{\partial f}{2\partial x}) (\displaystyle\frac{2}{f - \eta_{\rm lim}}) + (\eta - \displaystyle\frac{f+\eta_{\rm lim}}{2}) (-\displaystyle\frac{2}{(f-\eta_{\rm lim})^2} \displaystyle\frac{\partial f}{\partial x}) $
+\pagebreak
+
+$ \displaystyle\frac{\partial f}{\partial x} = f'(\chi) \displaystyle\frac{\partial \chi}{\partial x}$
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta^\star}{\partial y } = (\displaystyle\frac{\partial \eta}{\partial y} - \displaystyle\frac{\partial f}{2\partial y}) (\displaystyle\frac{2}{f - \eta_{\rm lim}}) + (\eta - \displaystyle\frac{f+\eta_{\rm lim}}{2}) (-\displaystyle\frac{2}{(f-\eta_{\rm lim})^2} \displaystyle\frac{\partial f}{\partial y}) $
+\pagebreak
+
+$ \displaystyle\frac{\partial f}{\partial y} = f'(\chi) \displaystyle\frac{\partial \chi}{\partial y}$
+\pagebreak
+
+$ \displaystyle\frac{\partial \eta^\star}{\partial z } = (\displaystyle\frac{\partial \eta}{\partial z} - \displaystyle\frac{\partial f}{2\partial z}) (\displaystyle\frac{2}{f - \eta_{\rm lim}}) + (\eta - \displaystyle\frac{f+\eta_{\rm lim}}{2}) (-\displaystyle\frac{2}{(f-\eta_{\rm lim})^2} \displaystyle\frac{\partial f}{\partial z}) $
+\pagebreak
+
+$ \displaystyle\frac{\partial f}{\partial z} = f'(\chi) \displaystyle\frac{\partial \chi}{\partial z}$
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi^\star}{\partial \chi } = \displaystyle\frac{1}{\chi_{\rm max}} $
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi^\star}{\partial z} $
+\pagebreak
+
+$ \eta_{\rm lim} $
+\pagebreak
+
+$ \chi_{\rm max} $
+\pagebreak
+
+$ f(\chi) $
+\pagebreak
+
+$ *p_bound_eta $
+\pagebreak
+
+$ *_bound_eta_der $
+\pagebreak
+
+$ \eta^\star = \displaystyle\frac{2}{f(\chi)-\eta_{\rm lim}} ({\rm atanh}(\displaystyle\frac{2ax}{a^2+r^2}) - \displaystyle\frac{f(\chi)+\eta_{\rm lim}}{2}) $
+\pagebreak
+
+$ \chi^\star = \displaystyle\frac{({\rm atan} \displaystyle\frac{2a\sqrt{y^2+z^2}}{r^2-a^2}} {\chi_{\rm max}} $
+\pagebreak
+
+$ 0 \leq X \leq 1 $
+\pagebreak
+
+$ 0 \leq T^\star \leq \pi $
+\pagebreak
+
+$ X = x_{\rm lim} X^\star $
+\pagebreak
+
+$ T = T^\star $
+\pagebreak
+
+$ -1 \leq X \leq 1 $
+\pagebreak
+
+$ X = \left(1 - x_{\rm lim}\right)/2 X^\star + \left(1 - x_{\rm lim}\right)/2 $
+\pagebreak
+
+$ x_{\rm lim}$
+\pagebreak
+
+$ X$
+\pagebreak
+
+$ T$
+\pagebreak
+
+$ X^\star $
+\pagebreak
+
+$ x_{\rm lim} $
+\pagebreak
+
+$ g (\eta=0) = 2*{\rm atan}(\displaystyle\frac{a}{R}) $
+\pagebreak
+
+$ \eta^\star $
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi^\star}{\partial x } = \displaystyle\frac{\displaystyle\frac{\partial \chi}{\partial x}(g(\eta) - \pi) - \displaystyle\frac{\partial g}{\partial x}(\chi - \pi)}{(g(\eta)-\pi)^2} $
+\pagebreak
+
+$ \displaystyle\frac{\partial g}{\partial x} = g'(\eta) \displaystyle\frac{\partial \eta}{\partial x}$
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi^\star}{\partial y} = \displaystyle\frac{\displaystyle\frac{\partial \chi}{\partial y}(g(\eta) - \pi) - \displaystyle\frac{\partial g}{\partial y}(\chi - \pi)}{(g(\eta)-\pi)^2} $
+\pagebreak
+
+$ \displaystyle\frac{\partial g}{\partial y} = g'(\eta) \displaystyle\frac{\partial \eta}{\partial y}$
+\pagebreak
+
+$ \displaystyle\frac{\partial \chi^\star}{\partial z} = \displaystyle\frac{\displaystyle\frac{\partial \chi}{\partial z}(g(\eta) - \pi) - \displaystyle\frac{\partial g}{\partial z}(\chi - \pi)}{(g(\eta)-\pi)^2} $
+\pagebreak
+
+$ \displaystyle\frac{\partial g}{\partial z} = g'(\eta) \displaystyle\frac{\partial \eta}{\partial z}$
+\pagebreak
+
+$ g(\eta) $
+\pagebreak
+
+$ *p_bound_chi $
+\pagebreak
+
+$ *_bound_chi_der $
+\pagebreak
+
+$ \chi^\star = \displaystyle\frac{({\rm atan} \displaystyle\frac{2a\sqrt{y^2+z^2}}{r^2-a^2}-\pi)} {(g(\eta) - \pi)} $
+\pagebreak
+
+$ X=0$
+\pagebreak
+
+$ X=1 $
+\pagebreak
+
+$(r,\theta, \varphi)$
+\pagebreak
+
+$\pi$
+\pagebreak
+
+$ 0 \leq x \leq 1 $
+\pagebreak
+
+$ 0 \leq \theta^\star \leq \pi/2 $
+\pagebreak
+
+$ 0 \leq t^\star \leq \quad \pi$
+\pagebreak
+
+$ r = \alpha x $
+\pagebreak
+
+$ t = t^\star / \omega$
+\pagebreak
+
+$T$
+\pagebreak
+
+$ -1 \leq x \leq 1 $
+\pagebreak
+
+$ r = \alpha x + \beta$
+\pagebreak
+
+$ t^\star$
+\pagebreak
+
+$ \pi$
+\pagebreak
+
+$\pi/2$
+\pagebreak
+
+$ nr-1 $
+\pagebreak
+
+$ \sqrt{a^2 + r_1^2} + \sqrt{a^2 + r_2^2} = d $
+\pagebreak
+
+$ \eta_{\rm minus} = -{\rm asinh}\displaystyle\frac{a}{r_1}$
+\pagebreak
+
+$ x_1 = a \displaystyle\frac{\cosh \eta_{\rm minus}}{\sinh \eta_{\rm minus}} $
+\pagebreak
+
+$ \eta_{\rm plus} = {\rm asinh}\displaystyle\frac{a}{r_2}$
+\pagebreak
+
+$ x_2 = a \displaystyle\frac{\cosh \eta_{\rm plus}}{\sinh \eta_{\rm plus}} $
+\pagebreak
+
+$ \chi_c = 2 {\rm atan}\displaystyle\frac{a}{R} $
+\pagebreak
+
+$ \eta_c = \ln (\displaystyle\frac{R}{a} + 1) - \ln (\displaystyle\frac{R}{a} - 1) $
+\pagebreak
+
+$ 1/r$
+\pagebreak
+
+$ r = (R - r_i)/2. x + (R + r_i)/2. $
+\pagebreak
+
+$ r = (r_o - R)/2. x + (r_o + R)/2. $
+\pagebreak
+
+$ A(i, j)$
+\pagebreak
+
+$[ku+1+i-j, j]$
+\pagebreak
+
+$\mathrm {max}(1, j-ku) \leq i \leq \mathrm{min} (n, j+kl)$
+\pagebreak
+
+$varphi$
+\pagebreak
+
+$ (i,j) $
+\pagebreak
+
+$\gamma_{ij} = \frac{1}{\Omega^2}\tilde{\gamma}_{ij}$
+\pagebreak
+
+$ \partial_r, \frac{1}{r}\partial_\theta, 0$
+\pagebreak
+
+$\partial_i$
+\pagebreak
+
+$\partial^i$
+\pagebreak
+
+$D_i$
+\pagebreak
+
+$D^i$
+\pagebreak
+
+$\bar{D}_i$
+\pagebreak
+
+$\bar{D}^i$
+\pagebreak
+
+$ \partial_r, \frac{1}{r}\partial_\theta, \frac{1}{r\sin\theta}\partial_\varphi$
+\pagebreak
+
+$ \partial_r, \frac{\cos \theta}{r}\partial_\theta, \frac{\cos \theta}{r\sin\theta}\partial_\varphi$
+\pagebreak
+
+$ r = \alpha x + \beta $
+\pagebreak
+
+$ r = \frac{1}{\left(\alpha x -1\right)} $
+\pagebreak
+
+$ \frac{r^2}{L^2} $
+\pagebreak
+
+$\epsilon = (1 - \frac{r^2}{L^2})/(1 + \frac{r^2}{L^2})$
+\pagebreak
+
+$\epsilon^n$
+\pagebreak
+
+$h_{ij}$
+\pagebreak
+
+$ D_i \epsilon$
+\pagebreak
+
+$r$
+\pagebreak
+
+$x$
+\pagebreak
+
+$\frac{1}{r} \partial_r$
+\pagebreak
+
+$ h_{ij} $
+\pagebreak
+
+$ \alpha $
+\pagebreak
+
+$(r,\theta)$
+\pagebreak
+
+$ \rho = \alpha x $
+\pagebreak
+
+$ \rho = \alpha x + \beta $
+\pagebreak
+
+$ \rho = \displaystyle\frac{1}{\alpha x -1}$
+\pagebreak
+
+$ r$
+\pagebreak
+
+$ r\sin \theta$
+\pagebreak
+
+$ 1-x^2$
+\pagebreak
+
+$\cos \theta$
+\pagebreak
+
+$\sin \theta$
+\pagebreak
+
+$\cos \varphi$
+\pagebreak
+
+$\sin \varphi$
+\pagebreak
+
+$\alpha$
+\pagebreak
+
+$(r,\varphi)$
+\pagebreak
+
+$(\theta, \varphi)$
+\pagebreak
+
+$X$
+\pagebreak
+
+$ \varphi$
+\pagebreak
+
+$ 0 \leq t^\star \leq \pi/2 \quad {\rm or} \quad \pi$
+\pagebreak
+
+$ r = \frac{1}{\alpha \left(x-1\right)} $
+\pagebreak
+
+$ X = r \sin\theta \cos\varphi + Xc $
+\pagebreak
+
+$ Y = r \sin\theta \sin\varphi + Yc $
+\pagebreak
+
+$ Z = r \cos\theta + Zc $
+\pagebreak
+
+$ \pi/2$
+\pagebreak
+
+$\varphi $
+\pagebreak
+
+$ 0 \leq \varphi^\star < \pi /2 $
+\pagebreak
+
+$ 0 \leq \varphi^\star \leq \pi/2 $
+\pagebreak
+
+$ r = \displaystyle\frac{1}{\alpha x -1}$
+\pagebreak
+
+$ 0 \leq \varphi^\star \leq /pi /2 $
+\pagebreak
+
+$ \log r = \alpha x + \beta $
+\pagebreak
+
+$ 1/r $
+\pagebreak
+
+$ X $
+\pagebreak
+
+$ T $
+\pagebreak
+
+$ 0 \leq i < $
+\pagebreak
+
+$ cos((2j)\theta^\star)$
+\pagebreak
+
+$ l = 2j $
+\pagebreak
+
+$ sin((2j+1) \theta^\star)$
+\pagebreak
+
+$ l = 2j+1 $
+\pagebreak
+
+$ T_{2i} (x)$
+\pagebreak
+
+$ l $
+\pagebreak
+
+$ T_{2i+1} (x)$
+\pagebreak
+
+$ P_{2i} (x)$
+\pagebreak
+
+$ P_{2i+1} (x)$
+\pagebreak
+
+$ cos((2j+1)\theta^\star)$
+\pagebreak
+
+$ sin((2j) \theta^\star)$
+\pagebreak
+
+$z$
+\pagebreak
+
+$y$
+\pagebreak
+
+$ m$
+\pagebreak
+
+$ \theta$
+\pagebreak
+
+$ \varphi$
+\pagebreak
+
+$ x = \displaystyle\frac{\sqrt{(X-X_c)^2+(Y-Y_c)^2+(Z-Z_c)^2}}{\alpha} $
+\pagebreak
+
+$ \theta^\star = {\rm atan} (\displaystyle\frac{\sqrt{(X-X_c)^2+(Y-Y_c)^2}}{Z-Z_c}) $
+\pagebreak
+
+$ \varphi^\star = {\rm atan} (\displaystyle\frac{Y-Y_c}{Z-Z_c}) $
+\pagebreak
+
+$ (X, Y, Z) $
+\pagebreak
+
+$(r, \theta)$
+\pagebreak
+
+$(r, \varphi)$
+\pagebreak
+
+$ \displaystyle\frac{\partial f}{\partial X} = (\sin\theta \displaystyle\frac{\partial f}{\alpha\partial x} + \cos\theta \displaystyle\frac{\partial f}{r\partial \theta^\star}) \cos\varphi - \sin\varphi \displaystyle\frac{\partial f}{r\sin\theta \partial \varphi^\star} $
+\pagebreak
+
+$ \displaystyle\frac{\partial f}{\partial Y} = (\sin\theta \displaystyle\frac{\partial f}{\alpha\partial x} + \cos\theta \displaystyle\frac{\partial f}{r\partial \theta^\star}) \sin\varphi + \cos\varphi \displaystyle\frac{\partial f}{r\sin\theta \partial \varphi^\star} $
+\pagebreak
+
+$ \displaystyle\frac{\partial f}{\partial Z} = \cos\theta \displaystyle\frac{\partial f}{\alpha\partial x} - \sin\theta\displaystyle\frac{\partial f}{r\partial \theta^\star}$
+\pagebreak
+
+$ x$
+\pagebreak
+
+$ y$
+\pagebreak
+
+$ z$
+\pagebreak
+
+$ (x,y) $
+\pagebreak
+
+$ (x,z) $
+\pagebreak
+
+$ (y, z) $
+\pagebreak
+
+$1/r$
+\pagebreak
+
+$ \cos \varphi$
+\pagebreak
+
+$ \sin \varphi$
+\pagebreak
+
+$ \cos \theta$
+\pagebreak
+
+$ \sin \theta$
+\pagebreak
+
+$ x$
+\pagebreak
+
+$ \chi$
+\pagebreak
+
+$ (x-1)$
+\pagebreak
+
+$ (1-x^2)$
+\pagebreak
+
+$ \alpha$
+\pagebreak
+
+$ (x+1)$
+\pagebreak
+
+$ \sin \chi$
+\pagebreak
+
+$ \cos \omega t$
+\pagebreak
+
+$ \sin \omega t$
+\pagebreak
+
+$ \theta$
+\pagebreak
+
+$ r^2$
+\pagebreak
+
+$ f' / r$
+\pagebreak
+
+$ f$
+\pagebreak
+
+$ T_{i} (x)$
+\pagebreak
+
+$ P_{i} (x)$
+\pagebreak
+
+$1-x^2$
+\pagebreak
+
+$ x = \displaystyle\frac{\sqrt{(X-X_c)^2+(Y-Y_c)^2+(Z-Z_c)^2}-\beta}{\alpha} $
+\pagebreak
+
+$ -1 \leq t^\star \leq 1 $
+\pagebreak
+
+$ t = \left (t_{\rm max} + t_{\rm min} \right)/2 \times t^\star + \left (t_{\rm max} - t_{\rm min} \right)/2$
+\pagebreak
+
+$ t_{\rm min} $
+\pagebreak
+
+$ t_{\rm max} $
+\pagebreak
+
+$ 1 - r/L$
+\pagebreak
+
+$(\partial_r, \partial_\theta /r , \partial_\varphi/r/sin\theta)$
+\pagebreak
+
+$(\partial_r, \frac{\cos \theta}{r} \partial_\theta , \frac{\cos \theta}{r \sin \theta} \partial_\varphi)$
+\pagebreak
+
+$ x = 1 + \displaystyle\frac{1}{\alpha\sqrt{(X-X_c)^2+(Y-Y_c)^2+(Z-Z_c)^2}} $
+\pagebreak
+
+$ r\displaystyle\frac{\partial f}{\partial X} = (-\sin\theta (x-1) \displaystyle\frac{\partial f}{\partial x} + \cos\theta \displaystyle\frac{\partial f}{r\partial \theta^\star}) \cos\varphi - \sin\varphi \displaystyle\frac{\partial f}{r\sin\theta \partial \varphi^\star} $
+\pagebreak
+
+$ r\displaystyle\frac{\partial f}{\partial Y} = (-\sin\theta (x-1) \displaystyle\frac{\partial f}{\partial x} + \cos\theta \displaystyle\frac{\partial f}{r\partial \theta^\star}) \sin\varphi + \cos\varphi \displaystyle\frac{\partial f}{r\sin\theta \partial \varphi^\star} $
+\pagebreak
+
+$ r\displaystyle\frac{\partial f}{\partial Z} = -\cos\theta (x-1) \displaystyle\frac{\partial f}{\partial x} - \sin\theta\displaystyle\frac{\partial f}{r\partial \theta^\star}$
+\pagebreak
+
+$m_{\rm order}$
+\pagebreak
+
+$m_{\rm quant}$
+\pagebreak
+
+$m$
+\pagebreak
+
+$ \sin \theta $
+\pagebreak
+
+$ \cos \theta $
+\pagebreak
+
+$ \sin \varphi $
+\pagebreak
+
+$ \cos \varphi $
+\pagebreak
+
+$l=m=0$
+\pagebreak
+
+$ x $
+\pagebreak
+
+$ x-1 $
+\pagebreak
+
+$ 1-x^2 $
+\pagebreak
+
+$ \sin \chi $
+\pagebreak
+
+$r^2$
+\pagebreak
+
+$\cos \omega t$
+\pagebreak
+
+$\sin \omega t$
+\pagebreak
+
+$ J \times x$
+\pagebreak
+
+$J$
+\pagebreak
+
+$\delta$
+\pagebreak
+
+\end{document}

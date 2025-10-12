@@ -1,0 +1,11 @@
+<map id="Kadath::Space_fourD_periodic" name="Kadath::Space_fourD_periodic">
+<area shape="rect" id="node1" title=" " alt="" coords="5,400,149,441"/>
+<area shape="rect" id="node2" href="$classKadath_1_1Space.html" title=" " alt="" coords="24,323,131,349"/>
+<area shape="rect" id="node3" href="$structKadath_1_1MemoryMappable.html" title=" " alt="" coords="281,5,452,32"/>
+<area shape="rect" id="node4" href="$classKadath_1_1Domain.html" title=" " alt="" coords="150,187,263,213"/>
+<area shape="rect" id="node5" href="$classKadath_1_1Dim__array.html" title=" " alt="" coords="137,81,263,108"/>
+<area shape="rect" id="node6" href="$classKadath_1_1Array.html" title=" " alt="" coords="287,81,446,108"/>
+<area shape="rect" id="node7" href="$classKadath_1_1Val__domain.html" title=" " alt="" coords="298,323,435,349"/>
+<area shape="rect" id="node8" href="$classKadath_1_1Base__spectral.html" title=" " alt="" coords="521,187,673,213"/>
+<area shape="rect" id="node9" href="$classKadath_1_1Array.html" title=" " alt="" coords="573,81,707,108"/>
+</map>

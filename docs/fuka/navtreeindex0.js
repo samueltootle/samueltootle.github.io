@@ -1,0 +1,19 @@
+var NAVTREEINDEX0 =
+{
+"api/index.html":[5],
+"bbhxcts.html":[2,2],
+"bhnsxcts.html":[2,5],
+"bhxcts.html":[2,1],
+"bnsxcts.html":[2,4],
+"citations.html":[3],
+"eos.html":[2,6],
+"fukascience.html":[4],
+"index.html":[0],
+"index.html":[],
+"install.html":[1],
+"nsxcts.html":[2,3],
+"pages.html":[],
+"pythontools.html":[2,7],
+"tutorials.html":[2,0],
+"usergroup0.html":[2]
+};

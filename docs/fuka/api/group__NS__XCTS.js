@@ -1,0 +1,167 @@
+var group__NS__XCTS =
+[
+    [ "Stages", "group__Stages.html", "group__Stages" ],
+    [ "NS_XCTS_BASE", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html", [
+      [ "base_config_t", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a98e54c6616014ef79f6f1ff4cc761a86", null ],
+      [ "base_space_t", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a52942d6c697f8dbf4b495d1fecec8b24", null ],
+      [ "cfary_t", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#ab39138d1057266df53ead9837d82fc8a", null ],
+      [ "cfgen_t", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a19d0ffe9c4f1e387ac714cab7107f01e", null ],
+      [ "~NS_XCTS_BASE", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a72d0e1c94088ecfee0e12a47d3c6c20e", null ],
+      [ "NS_XCTS_BASE", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a21fd52c4ea4f9a7b33e8852b69994952", null ],
+      [ "NS_XCTS_BASE", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#ab6db2ec2a3f0b738bef6e9adefdd212f", null ],
+      [ "checkpoint", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#ad9723e1efd6d9b6dc5e4c2d8837be30d", null ],
+      [ "converged_filename", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a87748425f84e26a110a6e49043ca8c0d", null ],
+      [ "do_newton", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a0e640ca240ae2a444f3702a10349e810", null ],
+      [ "increment_resolution", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a73429efcb47c550c8a4604a19faf90c0", null ],
+      [ "increment_seq", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#ab62ca48200c196606b3656d6982172e6", null ],
+      [ "initialize_support_containers", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a6859eeed90d0c7ec92e16897ca72f133", null ],
+      [ "internal_variable", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a7e74cd3e9fdb1e91aa926c44f663b617", null ],
+      [ "internal_variable", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a11f89229ac46e9d08f74b9cbf5c3b9e8", null ],
+      [ "internal_variable", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a5b8c4078c4f640242e7aea5bd15f33f9", null ],
+      [ "internal_variable", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a29d87eaff8be9945447009cf1a713bfb", null ],
+      [ "load_solution_from_file", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a51faec30437789551c0e817555c57f9b", null ],
+      [ "print_diagnostics", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a3d9d550ee0efcc3d91e3567f1ca3b26b", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a7c4b46a04f7359b46b086b6d75d3c4b8", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a444c39782621a7ccaee51949be79609d", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a806ba773da4d5cae858a327bd962fe85", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a1dd0584165f8e7d8d1a21adcb58af8d2", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a9bb00fbd8e784ea9cab68d98f1c373ba", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#ae9634849e59fc881bf74ecb136aa6f56", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a7672276d580c174ed05cffae4306fcaa", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a8a9b5244a3a7087013dd7f6c74930a6d", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a1d84888dd04c61ce9b66924e02d61236", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a909138db22ad0b188a8c87e8f7cd1de5", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a9042e3e968d79899205a3bc04b8c2de1", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#acd6d9fad3909443f744671f3ba2050c6", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a4f3a59d72d8831009af96401de8ac394", null ],
+      [ "ptr_data_member", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a7acebe2d2a08969eb05081a1cf7d71fe", null ],
+      [ "regrid", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a1802a080f0ea277438ce17e4e896f888", null ],
+      [ "reset_all_ptrs", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a00f1c43ff94697c8490add313260531c", null ],
+      [ "save_to_file", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a656db310805f6437c38b18f5f151688d", null ],
+      [ "update_config_quantities", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__BASE.html#a6e088c5ad0bf4dab82c2aba3dcb78917", null ]
+    ] ],
+    [ "NS_XCTS_NOROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__NOROT.html", [
+      [ "NS_XCTS_NOROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__NOROT.html#ace822225302dbb0b8b8453c6acc4854c", null ],
+      [ "NS_XCTS_NOROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__NOROT.html#a259ce4ef71bfa84ee53827078b19fce1", null ],
+      [ "NS_XCTS_NOROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__NOROT.html#a924af5c47bdda9b465abb50d888eb20d", null ],
+      [ "converged_filename", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__NOROT.html#a8024f604bb1f7384884d00dcd8b5129f", null ],
+      [ "setup_syst", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__NOROT.html#a2f7b0aa9d1bc4246d105fb43b7adeac6", null ]
+    ] ],
+    [ "NS_XCTS_UNIFORM_ROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__UNIFORM__ROT.html", [
+      [ "NS_XCTS_UNIFORM_ROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__UNIFORM__ROT.html#aa2b1ff2d30f816c3bea7d47526b60708", null ],
+      [ "NS_XCTS_UNIFORM_ROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__UNIFORM__ROT.html#a15568f5815eb19b332130e545cf7f8e5", null ],
+      [ "converged_filename", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__UNIFORM__ROT.html#ad74bbe37304b720227e0fa82ba1cb6cf", null ],
+      [ "increment_spin", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__UNIFORM__ROT.html#a45df9fcf9a1875967a42b19babc610e3", null ],
+      [ "setup_syst", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__UNIFORM__ROT.html#a202bb91bc5c7acc21f72ebfadf4ef26d", null ]
+    ] ],
+    [ "NS_XCTS_DIFF_ROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__DIFF__ROT.html", [
+      [ "NS_XCTS_DIFF_ROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__DIFF__ROT.html#ad731d4cdc8d7d7d98943501e1af4e4b2", null ],
+      [ "NS_XCTS_DIFF_ROT", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__DIFF__ROT.html#a99efc51684b72e7e74327b6798cd55d1", null ],
+      [ "converged_filename", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__DIFF__ROT.html#a9ff06ae2ae00b19986f6c654f7a72b6c", null ],
+      [ "increment_spin", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__DIFF__ROT.html#a3d00944195a6e36671df0e43724ef4fd", null ],
+      [ "reset_all_ptrs", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__DIFF__ROT.html#a381f19e348c3e7bfc9585737be5144bb", null ],
+      [ "setup_syst", "structKadath_1_1FUKA__Solvers_1_1NS__XCTS__DIFF__ROT.html#a24031204d3424d2749ca8d0858711ee0", null ]
+    ] ],
+    [ "launch_ns_xcts_solver", "structKadath_1_1FUKA__Solvers_1_1launch__ns__xcts__solver.html", [
+      [ "operator()", "structKadath_1_1FUKA__Solvers_1_1launch__ns__xcts__solver.html#af9d97c21c6b0c992a4a5a4aa99351672", null ]
+    ] ],
+    [ "launch_ns_solver", "structKadath_1_1FUKA__Solvers_1_1launch__ns__solver.html", [
+      [ "operator()", "structKadath_1_1FUKA__Solvers_1_1launch__ns__solver.html#a10cf38f658261484a9486a5e24f062ce", null ]
+    ] ],
+    [ "launch_ns_boost_solver", "structKadath_1_1FUKA__Solvers_1_1launch__ns__boost__solver.html", [
+      [ "operator()", "structKadath_1_1FUKA__Solvers_1_1launch__ns__boost__solver.html#a0c658def7a00afba123b420b1fb6f7fb", null ]
+    ] ],
+    [ "ns_3d_xcts_solver", "classKadath_1_1FUKA__Solvers_1_1ns__3d__xcts__solver.html", [
+      [ "ns_3d_xcts_solver", "classKadath_1_1FUKA__Solvers_1_1ns__3d__xcts__solver.html#a7fc8cfbb132dca191037f7d640ea7194", null ],
+      [ "ns_3d_xcts_solver", "group__NS__XCTS.html#ga1c2ab26637e697aaa0d51d1a51e25df6", null ],
+      [ "binary_boost_stage", "group__Stages.html#gae8450078bbf0e3cfe23fd4b7eaed88ea", null ],
+      [ "converged_filename", "group__NS__XCTS.html#gaa7639c149585ae629123d1cf696dac34", null ],
+      [ "keh_stage", "group__Stages.html#gaf85ad03ef60e4c484d47c19d0a6a7258", null ],
+      [ "norot_stage", "group__Stages.html#ga37b119657b050838c773b54caaa6ab9a", null ],
+      [ "print_diagnostics", "group__NS__XCTS.html#ga09d04a9956db7f94ac980c10545dfa78", null ],
+      [ "print_diagnostics_norot", "group__NS__XCTS.html#ga5fed645f54679791a4a1f7bd39d742cb", null ],
+      [ "save_to_file", "classKadath_1_1FUKA__Solvers_1_1ns__3d__xcts__solver.html#a8a04b36a2cb0adf2659bbc773af72f72", null ],
+      [ "solve", "group__NS__XCTS.html#ga94d9909b4296ca6140a7db2c5efb30da", null ],
+      [ "solve", "group__NS__XCTS.html#ga9653daddf52010aa1d9461050d44fd22", null ],
+      [ "syst_init", "group__NS__XCTS.html#ga049b75a07e52ace81bfe38fd0b7c39cf", null ],
+      [ "uniform_rot_stage", "group__Stages.html#gaa2927cc1f8ac3e6e91d223309ba78a2e", null ],
+      [ "update_config_quantities", "group__NS__XCTS.html#ga1e46382cba7de411bd4cd1f58c06028c", null ]
+    ] ],
+    [ "launch_diffrot_solver", "classKadath_1_1FUKA__Solvers_1_1launch__diffrot__solver.html", [
+      [ "operator()", "classKadath_1_1FUKA__Solvers_1_1launch__diffrot__solver.html#a3bffafdbbcf40a347ccbd765b68d3339", null ]
+    ] ],
+    [ "ns_isotropic_diff_rot_solver", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__diff__rot__solver.html", [
+      [ "ns_isotropic_diff_rot_solver", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__diff__rot__solver.html#a825a7b9919cc110883f084c34efbd519", null ],
+      [ "ns_isotropic_diff_rot_solver", "group__NS__XCTS.html#ga39d9448b636d21daf9839623fe5f8e7b", null ],
+      [ "converged_filename", "group__NS__XCTS.html#ga37bd107e95196f5b9eb84c03d4a8e427", null ],
+      [ "keh_stage", "group__Stages.html#ga197e1d74c9e68b27ead0c4dd39954ef0", null ],
+      [ "print_diagnostics", "group__NS__XCTS.html#ga5d4fd49421b23d15483a7d3f9efbbb7a", null ],
+      [ "save_to_file", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__diff__rot__solver.html#a0ba99f6cbfcd71d203826441cdd47847", null ],
+      [ "solve", "group__NS__XCTS.html#ga45d58eb52f4e62b500a5a376943746f0", null ],
+      [ "solve", "group__NS__XCTS.html#ga69000776c789534fdafecb8355a66ed9", null ],
+      [ "syst_init", "group__NS__XCTS.html#ga12b4975a6b5c361990c76d06631193ca", null ],
+      [ "update_config_quantities", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__diff__rot__solver.html#aa842e826b93711d8a9ca8d04024f4fcd", null ]
+    ] ],
+    [ "launch_norot_solver", "structKadath_1_1FUKA__Solvers_1_1launch__norot__solver.html", [
+      [ "operator()", "structKadath_1_1FUKA__Solvers_1_1launch__norot__solver.html#a0d2e7dbdc2e63d405c276ff73bde6235", null ]
+    ] ],
+    [ "ns_isotropic_norot_solver", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__norot__solver.html", [
+      [ "ns_isotropic_norot_solver", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__norot__solver.html#a2bf756c0ec3ae41f3d8149600f07653e", null ],
+      [ "ns_isotropic_norot_solver", "group__NS__XCTS.html#ga702630e3e02a29390489ed145a251404", null ],
+      [ "converged_filename", "group__NS__XCTS.html#ga04b547ef8e24c19fc8b776d2fd8cd50c", null ],
+      [ "norot_stage", "group__Stages.html#gaed5d6e29ca01ebbb2370bfe8725f7e21", null ],
+      [ "print_diagnostics", "group__NS__XCTS.html#ga8ed17687dee0bba256844e46eae32e4f", null ],
+      [ "save_to_file", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__norot__solver.html#a797244d05ae5617a9cfaf76bffef5b5e", null ],
+      [ "solve", "group__NS__XCTS.html#gafdf2b22667e29b00342ee290dd1e9396", null ],
+      [ "solve", "group__NS__XCTS.html#ga2ea3fd2f8c5c18260ad252c7a8202a9b", null ],
+      [ "syst_init", "group__NS__XCTS.html#ga8e4efff8027de603a08cc6b90e43420c", null ],
+      [ "update_config_quantities", "group__NS__XCTS.html#ga4b0e62456859fc0b047bfa6e8c3fcf13", null ]
+    ] ],
+    [ "launch_uniformrot_solver", "structKadath_1_1FUKA__Solvers_1_1launch__uniformrot__solver.html", [
+      [ "operator()", "structKadath_1_1FUKA__Solvers_1_1launch__uniformrot__solver.html#ade7a0552feaf65d2e2fc8c2062f3ccf1", null ]
+    ] ],
+    [ "ns_isotropic_uniform_rot_solver", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__uniform__rot__solver.html", [
+      [ "ns_isotropic_uniform_rot_solver", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__uniform__rot__solver.html#a0cb7becfddc50589f6dd5d0c2aea163c", null ],
+      [ "ns_isotropic_uniform_rot_solver", "group__NS__XCTS.html#gadeea0052f25a4ecd77576744ba846168", null ],
+      [ "converged_filename", "group__NS__XCTS.html#gaafc990dac98270f175b54af03b597106", null ],
+      [ "keplerian_rot_stage", "group__Stages.html#ga66f1dee63031f52799bfe272226d7a4b", null ],
+      [ "print_diagnostics", "group__NS__XCTS.html#ga282c735adafe59b1ef5cfb2b545d7129", null ],
+      [ "save_to_file", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__uniform__rot__solver.html#a7301df6d75e2ea833a8199eefcdcac91", null ],
+      [ "solve", "group__NS__XCTS.html#ga8a47ce851f4061f14cace40d9343fd71", null ],
+      [ "solve", "group__NS__XCTS.html#gaf37f9f4d770416e17326de46ea518cff", null ],
+      [ "syst_init", "group__NS__XCTS.html#gaa6fdf9ce7a954332be51e7163b38d6b6", null ],
+      [ "uniform_rot_stage", "group__Stages.html#ga428c416459309b6f342fe87364c1a4b3", null ],
+      [ "update_config_quantities", "classKadath_1_1FUKA__Solvers_1_1ns__isotropic__uniform__rot__solver.html#a2087cdacc638268d58236c15cdb5783f", null ]
+    ] ],
+    [ "ns_3d_xcts_base_solution_driver", "group__NS__XCTS.html#ga4ee6f670b95e7fa1ffdc7088bca61485", null ],
+    [ "ns_3d_xcts_binary_boost_driver", "group__NS__XCTS.html#ga4d3a660766ed8ebc415d5a75b2c9331c", null ],
+    [ "ns_3d_xcts_driver", "group__NS__XCTS.html#ga608a9a8565cabefe469d363ee559e075", null ],
+    [ "ns_3d_xcts_sequence", "group__NS__XCTS.html#gab15c4cc17213ee9c1af841755038d4e6", null ],
+    [ "ns_3d_xcts_sequence_setup", "group__NS__XCTS.html#ga8300fb97c1a5a86665755ae7b279cc4e", null ],
+    [ "ns_3d_xcts_stationary_driver", "group__NS__XCTS.html#ga45ef5992cd873b228608328a2a71be77", null ],
+    [ "ns_isotropic_base_solution_driver", "group__NS__XCTS.html#ga8878242fac4ad0757c8f4749e52f2da9", null ],
+    [ "ns_isotropic_base_solution_driver", "group__NS__XCTS.html#gae4565a6fdefd7f86d68031c70297d9d2", null ],
+    [ "ns_isotropic_diff_rot_driver", "group__NS__XCTS.html#ga7e1c0dbf04fcc373570bb44c4996af07", null ],
+    [ "ns_isotropic_diff_rot_stationary_driver", "group__NS__XCTS.html#ga7bbfe7e3c8c99b6310d0c68542153e74", null ],
+    [ "ns_isotropic_driver", "group__NS__XCTS.html#ga10209568ad0d0f6f7219b793f5e739b9", null ],
+    [ "ns_isotropic_norot_driver", "group__NS__XCTS.html#gac41e2d317990d3f33bd9e7fd84dcfa86", null ],
+    [ "ns_isotropic_norot_stationary_driver", "group__NS__XCTS.html#ga278e465dac5407bd82845d2a6293e5e6", null ],
+    [ "ns_isotropic_sequence", "group__NS__XCTS.html#ga570f41a2b6ec8795256ecc3c9ec421bb", null ],
+    [ "ns_isotropic_sequence_setup", "group__NS__XCTS.html#gabedef42b96c47a99e0e1091f7945edbc", null ],
+    [ "ns_isotropic_stationary_driver", "group__NS__XCTS.html#ga9a97ce0af923108ba6c18454222a705b", null ],
+    [ "ns_isotropic_uniform_rot_driver", "group__NS__XCTS.html#ga598146d70fff9e6e78e8ae25154145f2", null ],
+    [ "ns_isotropic_uniform_rot_stationary_driver", "group__NS__XCTS.html#ga54891830f00564ca67873d62723940a4", null ],
+    [ "print_diagnostics", "group__NS__XCTS.html#ga5d4fd49421b23d15483a7d3f9efbbb7a", null ],
+    [ "print_diagnostics", "group__NS__XCTS.html#ga8ed17687dee0bba256844e46eae32e4f", null ],
+    [ "print_diagnostics", "group__NS__XCTS.html#ga282c735adafe59b1ef5cfb2b545d7129", null ],
+    [ "print_diagnostics_norot", "group__NS__XCTS.html#ga5fed645f54679791a4a1f7bd39d742cb", null ],
+    [ "solve", "group__NS__XCTS.html#ga94d9909b4296ca6140a7db2c5efb30da", null ],
+    [ "solve", "group__NS__XCTS.html#ga45d58eb52f4e62b500a5a376943746f0", null ],
+    [ "solve", "group__NS__XCTS.html#gafdf2b22667e29b00342ee290dd1e9396", null ],
+    [ "solve", "group__NS__XCTS.html#ga8a47ce851f4061f14cace40d9343fd71", null ],
+    [ "solve", "group__NS__XCTS.html#ga9653daddf52010aa1d9461050d44fd22", null ],
+    [ "syst_init", "group__NS__XCTS.html#ga049b75a07e52ace81bfe38fd0b7c39cf", null ],
+    [ "syst_init", "group__NS__XCTS.html#ga12b4975a6b5c361990c76d06631193ca", null ],
+    [ "syst_init", "group__NS__XCTS.html#ga8e4efff8027de603a08cc6b90e43420c", null ],
+    [ "syst_init", "group__NS__XCTS.html#gaa6fdf9ce7a954332be51e7163b38d6b6", null ]
+];
