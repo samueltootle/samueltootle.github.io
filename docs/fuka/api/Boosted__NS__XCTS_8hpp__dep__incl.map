@@ -1,0 +1,8 @@
+<map id="Boosted_NS_XCTS.hpp" name="Boosted_NS_XCTS.hpp">
+<area shape="rect" id="node1" title="This module takes an isolated NS solution solver and modifies it to produce a boosted NS solution sui..." alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$NS__XCTS__driver_8hpp_source.html" title=" " alt="" coords="13,80,160,107"/>
+<area shape="rect" id="node3" href="$solve__NS__for__binary__v2_8hpp_source.html" title=" " alt="" coords="15,155,158,196"/>
+<area shape="rect" id="node4" href="$BNS__XCTS__setup_8cpp_source.html" title=" " alt="" coords="9,244,164,271"/>
+<area shape="rect" id="node5" href="$BNS__XCTS__setup_8hpp_source.html" title=" " alt="" coords="9,319,164,345"/>
+<area shape="rect" id="node6" href="$BNS__XCTS__driver_8hpp_source.html" title=" " alt="" coords="9,393,164,420"/>
+</map>

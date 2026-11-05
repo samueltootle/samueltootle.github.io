@@ -1,0 +1,10 @@
+<map id="NS_XCTS.hpp" name="NS_XCTS.hpp">
+<area shape="rect" id="node1" title="This is a rewrite of the isolated neutron star solvers using the XCTS formulation The rewrite was bot..." alt="" coords="136,5,243,32"/>
+<area shape="rect" id="node2" href="$NS__XCTS__driver_8cpp_source.html" title=" " alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="$NS__XCTS__driver_8hpp_source.html" title=" " alt="" coords="116,155,263,181"/>
+<area shape="rect" id="node8" href="$Boosted__NS__XCTS_8hpp.html" title="This module takes an isolated NS solution solver and modifies it to produce a boosted NS solution sui..." alt="" coords="227,80,389,107"/>
+<area shape="rect" id="node4" href="$solve__NS__for__binary__v2_8hpp_source.html" title=" " alt="" coords="118,229,261,271"/>
+<area shape="rect" id="node5" href="$BNS__XCTS__setup_8cpp_source.html" title=" " alt="" coords="112,319,267,345"/>
+<area shape="rect" id="node6" href="$BNS__XCTS__setup_8hpp_source.html" title=" " alt="" coords="112,393,267,420"/>
+<area shape="rect" id="node7" href="$BNS__XCTS__driver_8hpp_source.html" title=" " alt="" coords="112,468,267,495"/>
+</map>
